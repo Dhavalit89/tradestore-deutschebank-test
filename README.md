@@ -6,9 +6,9 @@ deutschebank interview coding test
 3.	Store should automatically update expire flag if in a store the trade crosses the maturity date.
 
 
-This project contains spring boot application with in build H2 database
+**This project contains spring boot application with in build H2 database**
 
-Feature:
+Features:
 1) Rest ennpoints to add/update/delete tradestore
 2) Testcase which test alll the scenarions mentioned above
 3) scheduler task to delete trades having trade dates greater than maturity date
