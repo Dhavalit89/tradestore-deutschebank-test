@@ -14,7 +14,6 @@ public class TradeStoreController {
 
     @GetMapping("/tradeStore")
     private List<Trade> getTradeStore() {
-
         return tradeStoreService.getAllTradeStore();
     }
 
